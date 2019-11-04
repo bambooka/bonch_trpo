@@ -1,0 +1,3 @@
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WindowsFormsApplication2.exe
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WindowsFormsApplication2.pdb

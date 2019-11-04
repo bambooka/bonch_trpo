@@ -1,0 +1,28 @@
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\WindowsFormsApplication2.exe
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\WindowsFormsApplication2.pdb
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\Google.Protobuf.dll
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\bin\Debug\MySql.Data.xml
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms2015_MySQL.csprojResolveAssemblyReference.cache
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms_MySQL.Form_Main.resources
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms_MySQL.Form_About.resources
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms2015_MySQL.csproj.GenerateResource.Cache
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WindowsFormsApplication2.exe
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WindowsFormsApplication2.pdb
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms2015_MySQL.Form_Main.resources
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms_MySQL\obj\Debug\WinForms2015_MySQL.Form_About.resources
+d:\Share_U\PROJ__SPCT\SoftDev__2019\ZF65_2019\WindowsFormsApplication2\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csprojResolveAssemblyReference.cache
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_Main.resources
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_About.resources
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csproj.GenerateResource.Cache
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.pdb
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.exe
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.pdb
