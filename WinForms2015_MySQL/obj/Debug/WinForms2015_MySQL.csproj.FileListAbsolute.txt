@@ -26,3 +26,10 @@ C:\Users\bambooka\Downloads\Telegram Desktop\lab5\WinForms2015_MySQL\obj\Debug\W
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.exe
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.pdb
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csprojResolveAssemblyReference.cache
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_Main.resources
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_About.resources
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csproj.GenerateResource.Cache
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe
+C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.pdb

@@ -36,9 +36,6 @@
             this.оПрограммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.labelSize = new System.Windows.Forms.Label();
             this.labelDist = new System.Windows.Forms.Label();
-            this.rb_apple = new System.Windows.Forms.RadioButton();
-            this.rb_samsung = new System.Windows.Forms.RadioButton();
-            this.rb_fitbit = new System.Windows.Forms.RadioButton();
             this.labelPrice = new System.Windows.Forms.Label();
             this.price_from = new System.Windows.Forms.TextBox();
             this.labelPrice_do = new System.Windows.Forms.Label();
@@ -62,23 +59,9 @@
             this.pictureBox_enter_image = new System.Windows.Forms.PictureBox();
             this.name_device = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.rb_wokka = new System.Windows.Forms.RadioButton();
-            this.rb_smart_kid = new System.Windows.Forms.RadioButton();
-            this.rb_panasonic = new System.Windows.Forms.RadioButton();
-            this.rb_sony = new System.Windows.Forms.RadioButton();
-            this.rb_xiaomi = new System.Windows.Forms.RadioButton();
             this.rb_smartwatch = new System.Windows.Forms.RadioButton();
             this.rb_bracelet = new System.Windows.Forms.RadioButton();
-            this.rb_android = new System.Windows.Forms.RadioButton();
-            this.rb_xos = new System.Windows.Forms.RadioButton();
-            this.rb_windows = new System.Windows.Forms.RadioButton();
-            this.rb_windows_phone = new System.Windows.Forms.RadioButton();
             this.label2 = new System.Windows.Forms.Label();
-            this.rb_timer = new System.Windows.Forms.RadioButton();
-            this.rb_steps = new System.Windows.Forms.RadioButton();
-            this.rb_bpm = new System.Windows.Forms.RadioButton();
-            this.rb_sleep = new System.Windows.Forms.RadioButton();
-            this.rb_calories = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.input_name = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -87,6 +70,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.s_new_os = new System.Windows.Forms.ComboBox();
             this.s_new_unit = new System.Windows.Forms.ComboBox();
+            this.s_manufacturer = new System.Windows.Forms.ComboBox();
+            this.s_os = new System.Windows.Forms.ComboBox();
+            this.s_unit = new System.Windows.Forms.ComboBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGirdView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_enter_image)).BeginInit();
@@ -148,7 +134,7 @@
             // 
             this.labelSize.AutoSize = true;
             this.labelSize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelSize.Location = new System.Drawing.Point(257, 39);
+            this.labelSize.Location = new System.Drawing.Point(12, 122);
             this.labelSize.Name = "labelSize";
             this.labelSize.Size = new System.Drawing.Size(160, 13);
             this.labelSize.TabIndex = 4;
@@ -158,50 +144,17 @@
             // 
             this.labelDist.AutoSize = true;
             this.labelDist.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelDist.Location = new System.Drawing.Point(2, 166);
+            this.labelDist.Location = new System.Drawing.Point(2, 199);
             this.labelDist.Name = "labelDist";
             this.labelDist.Size = new System.Drawing.Size(99, 13);
             this.labelDist.TabIndex = 6;
             this.labelDist.Text = "Производитель";
             // 
-            // rb_apple
-            // 
-            this.rb_apple.AutoSize = true;
-            this.rb_apple.Location = new System.Drawing.Point(5, 211);
-            this.rb_apple.Name = "rb_apple";
-            this.rb_apple.Size = new System.Drawing.Size(52, 17);
-            this.rb_apple.TabIndex = 9;
-            this.rb_apple.TabStop = true;
-            this.rb_apple.Text = "Apple";
-            this.rb_apple.UseVisualStyleBackColor = true;
-            // 
-            // rb_samsung
-            // 
-            this.rb_samsung.AutoSize = true;
-            this.rb_samsung.Location = new System.Drawing.Point(5, 234);
-            this.rb_samsung.Name = "rb_samsung";
-            this.rb_samsung.Size = new System.Drawing.Size(71, 17);
-            this.rb_samsung.TabIndex = 10;
-            this.rb_samsung.TabStop = true;
-            this.rb_samsung.Text = "Samsumg";
-            this.rb_samsung.UseVisualStyleBackColor = true;
-            // 
-            // rb_fitbit
-            // 
-            this.rb_fitbit.AutoSize = true;
-            this.rb_fitbit.Location = new System.Drawing.Point(5, 259);
-            this.rb_fitbit.Name = "rb_fitbit";
-            this.rb_fitbit.Size = new System.Drawing.Size(47, 17);
-            this.rb_fitbit.TabIndex = 11;
-            this.rb_fitbit.TabStop = true;
-            this.rb_fitbit.Text = "Fitbit";
-            this.rb_fitbit.UseVisualStyleBackColor = true;
-            // 
             // labelPrice
             // 
             this.labelPrice.AutoSize = true;
             this.labelPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelPrice.Location = new System.Drawing.Point(7, 134);
+            this.labelPrice.Location = new System.Drawing.Point(2, 166);
             this.labelPrice.Name = "labelPrice";
             this.labelPrice.Size = new System.Drawing.Size(54, 13);
             this.labelPrice.TabIndex = 12;
@@ -210,7 +163,7 @@
             // price_from
             // 
             this.price_from.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.price_from.Location = new System.Drawing.Point(69, 128);
+            this.price_from.Location = new System.Drawing.Point(62, 161);
             this.price_from.Name = "price_from";
             this.price_from.Size = new System.Drawing.Size(69, 20);
             this.price_from.TabIndex = 13;
@@ -219,7 +172,7 @@
             // labelPrice_do
             // 
             this.labelPrice_do.AutoSize = true;
-            this.labelPrice_do.Location = new System.Drawing.Point(144, 131);
+            this.labelPrice_do.Location = new System.Drawing.Point(140, 164);
             this.labelPrice_do.Name = "labelPrice_do";
             this.labelPrice_do.Size = new System.Drawing.Size(22, 13);
             this.labelPrice_do.TabIndex = 14;
@@ -227,7 +180,7 @@
             // 
             // price_until
             // 
-            this.price_until.Location = new System.Drawing.Point(172, 128);
+            this.price_until.Location = new System.Drawing.Point(168, 159);
             this.price_until.Name = "price_until";
             this.price_until.Size = new System.Drawing.Size(69, 20);
             this.price_until.TabIndex = 15;
@@ -237,7 +190,7 @@
             // 
             this.labelflight_time.AutoSize = true;
             this.labelflight_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelflight_time.Location = new System.Drawing.Point(2, 282);
+            this.labelflight_time.Location = new System.Drawing.Point(2, 261);
             this.labelflight_time.Name = "labelflight_time";
             this.labelflight_time.Size = new System.Drawing.Size(147, 13);
             this.labelflight_time.TabIndex = 16;
@@ -347,7 +300,7 @@
             // 
             // btn_find
             // 
-            this.btn_find.Location = new System.Drawing.Point(238, 335);
+            this.btn_find.Location = new System.Drawing.Point(216, 305);
             this.btn_find.Name = "btn_find";
             this.btn_find.Size = new System.Drawing.Size(125, 34);
             this.btn_find.TabIndex = 35;
@@ -358,15 +311,15 @@
             // dataGirdView1
             // 
             this.dataGirdView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGirdView1.Location = new System.Drawing.Point(10, 375);
+            this.dataGirdView1.Location = new System.Drawing.Point(10, 424);
             this.dataGirdView1.Name = "dataGirdView1";
-            this.dataGirdView1.Size = new System.Drawing.Size(845, 279);
+            this.dataGirdView1.Size = new System.Drawing.Size(845, 230);
             this.dataGirdView1.TabIndex = 36;
             this.dataGirdView1.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dataGirdView1_DataError);
             // 
             // btn_clear_filter
             // 
-            this.btn_clear_filter.Location = new System.Drawing.Point(238, 295);
+            this.btn_clear_filter.Location = new System.Drawing.Point(216, 239);
             this.btn_clear_filter.Name = "btn_clear_filter";
             this.btn_clear_filter.Size = new System.Drawing.Size(125, 34);
             this.btn_clear_filter.TabIndex = 38;
@@ -418,65 +371,10 @@
             this.label4.TabIndex = 45;
             this.label4.Text = "Название устройства";
             // 
-            // rb_wokka
-            // 
-            this.rb_wokka.AutoSize = true;
-            this.rb_wokka.Location = new System.Drawing.Point(75, 210);
-            this.rb_wokka.Name = "rb_wokka";
-            this.rb_wokka.Size = new System.Drawing.Size(60, 17);
-            this.rb_wokka.TabIndex = 46;
-            this.rb_wokka.TabStop = true;
-            this.rb_wokka.Text = "Wokka";
-            this.rb_wokka.UseVisualStyleBackColor = true;
-            // 
-            // rb_smart_kid
-            // 
-            this.rb_smart_kid.AutoSize = true;
-            this.rb_smart_kid.Location = new System.Drawing.Point(75, 233);
-            this.rb_smart_kid.Name = "rb_smart_kid";
-            this.rb_smart_kid.Size = new System.Drawing.Size(70, 17);
-            this.rb_smart_kid.TabIndex = 47;
-            this.rb_smart_kid.TabStop = true;
-            this.rb_smart_kid.Text = "Smart Kid";
-            this.rb_smart_kid.UseVisualStyleBackColor = true;
-            // 
-            // rb_panasonic
-            // 
-            this.rb_panasonic.AutoSize = true;
-            this.rb_panasonic.Location = new System.Drawing.Point(74, 259);
-            this.rb_panasonic.Name = "rb_panasonic";
-            this.rb_panasonic.Size = new System.Drawing.Size(75, 17);
-            this.rb_panasonic.TabIndex = 48;
-            this.rb_panasonic.TabStop = true;
-            this.rb_panasonic.Text = "Panasonic";
-            this.rb_panasonic.UseVisualStyleBackColor = true;
-            // 
-            // rb_sony
-            // 
-            this.rb_sony.AutoSize = true;
-            this.rb_sony.Location = new System.Drawing.Point(75, 187);
-            this.rb_sony.Name = "rb_sony";
-            this.rb_sony.Size = new System.Drawing.Size(49, 17);
-            this.rb_sony.TabIndex = 49;
-            this.rb_sony.TabStop = true;
-            this.rb_sony.Text = "Sony";
-            this.rb_sony.UseVisualStyleBackColor = true;
-            // 
-            // rb_xiaomi
-            // 
-            this.rb_xiaomi.AutoSize = true;
-            this.rb_xiaomi.Location = new System.Drawing.Point(5, 188);
-            this.rb_xiaomi.Name = "rb_xiaomi";
-            this.rb_xiaomi.Size = new System.Drawing.Size(56, 17);
-            this.rb_xiaomi.TabIndex = 50;
-            this.rb_xiaomi.TabStop = true;
-            this.rb_xiaomi.Text = "Xiaomi";
-            this.rb_xiaomi.UseVisualStyleBackColor = true;
-            // 
             // rb_smartwatch
             // 
             this.rb_smartwatch.AutoSize = true;
-            this.rb_smartwatch.Location = new System.Drawing.Point(328, 67);
+            this.rb_smartwatch.Location = new System.Drawing.Point(83, 138);
             this.rb_smartwatch.Name = "rb_smartwatch";
             this.rb_smartwatch.Size = new System.Drawing.Size(89, 17);
             this.rb_smartwatch.TabIndex = 51;
@@ -487,7 +385,7 @@
             // rb_bracelet
             // 
             this.rb_bracelet.AutoSize = true;
-            this.rb_bracelet.Location = new System.Drawing.Point(260, 67);
+            this.rb_bracelet.Location = new System.Drawing.Point(9, 143);
             this.rb_bracelet.Name = "rb_bracelet";
             this.rb_bracelet.Size = new System.Drawing.Size(67, 17);
             this.rb_bracelet.TabIndex = 52;
@@ -495,115 +393,15 @@
             this.rb_bracelet.Text = "Браслет";
             this.rb_bracelet.UseVisualStyleBackColor = true;
             // 
-            // rb_android
-            // 
-            this.rb_android.AutoSize = true;
-            this.rb_android.Location = new System.Drawing.Point(5, 312);
-            this.rb_android.Name = "rb_android";
-            this.rb_android.Size = new System.Drawing.Size(61, 17);
-            this.rb_android.TabIndex = 53;
-            this.rb_android.TabStop = true;
-            this.rb_android.Text = "Android";
-            this.rb_android.UseVisualStyleBackColor = true;
-            // 
-            // rb_xos
-            // 
-            this.rb_xos.AutoSize = true;
-            this.rb_xos.Location = new System.Drawing.Point(5, 335);
-            this.rb_xos.Name = "rb_xos";
-            this.rb_xos.Size = new System.Drawing.Size(50, 17);
-            this.rb_xos.TabIndex = 54;
-            this.rb_xos.TabStop = true;
-            this.rb_xos.Text = "X OS";
-            this.rb_xos.UseVisualStyleBackColor = true;
-            // 
-            // rb_windows
-            // 
-            this.rb_windows.AutoSize = true;
-            this.rb_windows.Location = new System.Drawing.Point(84, 312);
-            this.rb_windows.Name = "rb_windows";
-            this.rb_windows.Size = new System.Drawing.Size(69, 17);
-            this.rb_windows.TabIndex = 55;
-            this.rb_windows.TabStop = true;
-            this.rb_windows.Text = "Windows";
-            this.rb_windows.UseVisualStyleBackColor = true;
-            // 
-            // rb_windows_phone
-            // 
-            this.rb_windows_phone.AutoSize = true;
-            this.rb_windows_phone.Location = new System.Drawing.Point(85, 335);
-            this.rb_windows_phone.Name = "rb_windows_phone";
-            this.rb_windows_phone.Size = new System.Drawing.Size(103, 17);
-            this.rb_windows_phone.TabIndex = 56;
-            this.rb_windows_phone.TabStop = true;
-            this.rb_windows_phone.Text = "Windows Phone";
-            this.rb_windows_phone.UseVisualStyleBackColor = true;
-            this.rb_windows_phone.CheckedChanged += new System.EventHandler(this.radioButton11_CheckedChanged);
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(261, 114);
+            this.label2.Location = new System.Drawing.Point(2, 316);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(74, 13);
             this.label2.TabIndex = 57;
             this.label2.Text = "Измерение";
-            // 
-            // rb_timer
-            // 
-            this.rb_timer.AutoSize = true;
-            this.rb_timer.Location = new System.Drawing.Point(263, 164);
-            this.rb_timer.Name = "rb_timer";
-            this.rb_timer.Size = new System.Drawing.Size(64, 17);
-            this.rb_timer.TabIndex = 58;
-            this.rb_timer.TabStop = true;
-            this.rb_timer.Text = "Таймер";
-            this.rb_timer.UseVisualStyleBackColor = true;
-            // 
-            // rb_steps
-            // 
-            this.rb_steps.AutoSize = true;
-            this.rb_steps.Location = new System.Drawing.Point(264, 134);
-            this.rb_steps.Name = "rb_steps";
-            this.rb_steps.Size = new System.Drawing.Size(71, 17);
-            this.rb_steps.TabIndex = 59;
-            this.rb_steps.TabStop = true;
-            this.rb_steps.Text = "Шагомер";
-            this.rb_steps.UseVisualStyleBackColor = true;
-            // 
-            // rb_bpm
-            // 
-            this.rb_bpm.AutoSize = true;
-            this.rb_bpm.Location = new System.Drawing.Point(264, 199);
-            this.rb_bpm.Name = "rb_bpm";
-            this.rb_bpm.Size = new System.Drawing.Size(56, 17);
-            this.rb_bpm.TabIndex = 60;
-            this.rb_bpm.TabStop = true;
-            this.rb_bpm.Text = "Пульс";
-            this.rb_bpm.UseVisualStyleBackColor = true;
-            // 
-            // rb_sleep
-            // 
-            this.rb_sleep.AutoSize = true;
-            this.rb_sleep.Location = new System.Drawing.Point(263, 233);
-            this.rb_sleep.Name = "rb_sleep";
-            this.rb_sleep.Size = new System.Drawing.Size(44, 17);
-            this.rb_sleep.TabIndex = 61;
-            this.rb_sleep.TabStop = true;
-            this.rb_sleep.Text = "Сон";
-            this.rb_sleep.UseVisualStyleBackColor = true;
-            // 
-            // rb_calories
-            // 
-            this.rb_calories.AutoSize = true;
-            this.rb_calories.Location = new System.Drawing.Point(264, 261);
-            this.rb_calories.Name = "rb_calories";
-            this.rb_calories.Size = new System.Drawing.Size(68, 17);
-            this.rb_calories.TabIndex = 62;
-            this.rb_calories.TabStop = true;
-            this.rb_calories.Text = "Калории";
-            this.rb_calories.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -619,7 +417,7 @@
             // input_name
             // 
             this.input_name.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.input_name.Location = new System.Drawing.Point(10, 88);
+            this.input_name.Location = new System.Drawing.Point(10, 92);
             this.input_name.Name = "input_name";
             this.input_name.Size = new System.Drawing.Size(231, 20);
             this.input_name.TabIndex = 64;
@@ -678,6 +476,7 @@
             this.s_new_os.Name = "s_new_os";
             this.s_new_os.Size = new System.Drawing.Size(121, 21);
             this.s_new_os.TabIndex = 71;
+            this.s_new_os.SelectedIndexChanged += new System.EventHandler(this.s_new_os_SelectedIndexChanged);
             // 
             // s_new_unit
             // 
@@ -691,11 +490,58 @@
             this.s_new_unit.Size = new System.Drawing.Size(121, 21);
             this.s_new_unit.TabIndex = 72;
             // 
+            // s_manufacturer
+            // 
+            this.s_manufacturer.FormattingEnabled = true;
+            this.s_manufacturer.Items.AddRange(new object[] {
+            "Apple",
+            "samsung",
+            "Fitbit",
+            "Wokka",
+            "Sony",
+            "Panasonic",
+            "Smart Kid",
+            "Xiaomi"});
+            this.s_manufacturer.Location = new System.Drawing.Point(5, 229);
+            this.s_manufacturer.Name = "s_manufacturer";
+            this.s_manufacturer.Size = new System.Drawing.Size(121, 21);
+            this.s_manufacturer.TabIndex = 73;
+            // 
+            // s_os
+            // 
+            this.s_os.FormattingEnabled = true;
+            this.s_os.Items.AddRange(new object[] {
+            "Android",
+            "X OS",
+            "Windows ",
+            "Windows Phone"});
+            this.s_os.Location = new System.Drawing.Point(5, 283);
+            this.s_os.Name = "s_os";
+            this.s_os.Size = new System.Drawing.Size(121, 21);
+            this.s_os.TabIndex = 74;
+            // 
+            // s_unit
+            // 
+            this.s_unit.FormattingEnabled = true;
+            this.s_unit.Items.AddRange(new object[] {
+            "Шагомер",
+            "Таймер",
+            "Пульс",
+            "Сон",
+            "Калории"});
+            this.s_unit.Location = new System.Drawing.Point(5, 343);
+            this.s_unit.Name = "s_unit";
+            this.s_unit.Size = new System.Drawing.Size(121, 21);
+            this.s_unit.TabIndex = 75;
+            // 
             // Form_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(865, 635);
+            this.Controls.Add(this.s_unit);
+            this.Controls.Add(this.s_os);
+            this.Controls.Add(this.s_manufacturer);
             this.Controls.Add(this.s_new_unit);
             this.Controls.Add(this.s_new_os);
             this.Controls.Add(this.label6);
@@ -704,23 +550,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.input_name);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.rb_calories);
-            this.Controls.Add(this.rb_sleep);
-            this.Controls.Add(this.rb_bpm);
-            this.Controls.Add(this.rb_steps);
-            this.Controls.Add(this.rb_timer);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.rb_windows_phone);
-            this.Controls.Add(this.rb_windows);
-            this.Controls.Add(this.rb_xos);
-            this.Controls.Add(this.rb_android);
             this.Controls.Add(this.rb_bracelet);
             this.Controls.Add(this.rb_smartwatch);
-            this.Controls.Add(this.rb_xiaomi);
-            this.Controls.Add(this.rb_sony);
-            this.Controls.Add(this.rb_panasonic);
-            this.Controls.Add(this.rb_smart_kid);
-            this.Controls.Add(this.rb_wokka);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.name_device);
             this.Controls.Add(this.pictureBox_enter_image);
@@ -744,9 +576,6 @@
             this.Controls.Add(this.labelPrice_do);
             this.Controls.Add(this.price_from);
             this.Controls.Add(this.labelPrice);
-            this.Controls.Add(this.rb_fitbit);
-            this.Controls.Add(this.rb_samsung);
-            this.Controls.Add(this.rb_apple);
             this.Controls.Add(this.labelDist);
             this.Controls.Add(this.labelSize);
             this.Controls.Add(this.menuStrip1);
@@ -773,9 +602,6 @@
     private System.Windows.Forms.ToolStripMenuItem оПрограммеToolStripMenuItem;
     private System.Windows.Forms.Label labelSize;
     private System.Windows.Forms.Label labelDist;
-    private System.Windows.Forms.RadioButton rb_apple;
-    private System.Windows.Forms.RadioButton rb_samsung;
-    private System.Windows.Forms.RadioButton rb_fitbit;
     private System.Windows.Forms.Label labelPrice;
     private System.Windows.Forms.TextBox price_from;
     private System.Windows.Forms.Label labelPrice_do;
@@ -799,23 +625,9 @@
     private System.Windows.Forms.PictureBox pictureBox_enter_image;
     private System.Windows.Forms.TextBox name_device;
     private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton rb_wokka;
-        private System.Windows.Forms.RadioButton rb_smart_kid;
-        private System.Windows.Forms.RadioButton rb_panasonic;
-        private System.Windows.Forms.RadioButton rb_sony;
-        private System.Windows.Forms.RadioButton rb_xiaomi;
         private System.Windows.Forms.RadioButton rb_smartwatch;
         private System.Windows.Forms.RadioButton rb_bracelet;
-        private System.Windows.Forms.RadioButton rb_android;
-        private System.Windows.Forms.RadioButton rb_xos;
-        private System.Windows.Forms.RadioButton rb_windows;
-        private System.Windows.Forms.RadioButton rb_windows_phone;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton rb_timer;
-        private System.Windows.Forms.RadioButton rb_steps;
-        private System.Windows.Forms.RadioButton rb_bpm;
-        private System.Windows.Forms.RadioButton rb_sleep;
-        private System.Windows.Forms.RadioButton rb_calories;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox input_name;
         private System.Windows.Forms.Label label5;
@@ -824,6 +636,9 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox s_new_os;
         private System.Windows.Forms.ComboBox s_new_unit;
+        private System.Windows.Forms.ComboBox s_manufacturer;
+        private System.Windows.Forms.ComboBox s_os;
+        private System.Windows.Forms.ComboBox s_unit;
     }
 }
 
