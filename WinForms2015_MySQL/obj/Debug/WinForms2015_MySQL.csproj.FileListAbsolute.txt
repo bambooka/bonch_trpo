@@ -33,3 +33,13 @@ C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csproj.GenerateResource.Cache
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe
 C:\devel\projects\trpo_bonch\bonch_trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.pdb
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe.config
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.exe
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.pdb
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csprojResolveAssemblyReference.cache
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_Main.resources
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.Form_About.resources
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\obj\Debug\WinForms2015_MySQL.csproj.GenerateResource.Cache
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.exe
+Z:\wanderer\bonch\trpo\bonch_trpo\WinForms2015_MySQL\bin\Debug\WindowsFormsApplication2.pdb

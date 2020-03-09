@@ -74,11 +74,94 @@ namespace WinForms2015_MySQL
 
         private void add_bd_Click(object sender, EventArgs e) {//добавление записи в БД основная проверка//
             string addbd = input_new_name.Text;
+            int manufacturer;
+            int os;
+            int type;
+            int price; //?
+            int unit;
             //строка пустая добавлять нельзя
             if (addbd == "")  {
                 MessageBox.Show("ВВедите название умных часов!", "ОШИБКА:(", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);//исключение
             } else {
-                string c1 = s_new_manuacture.Text;                
+                /*
+      
+               // selected price 
+                string selected_price_from = price_from.Text;
+                string selected_price_until = price_until.Text;
+
+                if (selected_price_from != "" && selected_price_until != "")
+                {
+                    str_condition += o_where + o_and + " smartwatch.price > " + selected_price_from + " and " + "smartwatch.price < " + selected_price_until;
+                }
+                else
+                {
+                    o_where = "";
+                    o_and = " and ";
+                }
+                */
+         
+                // selected manufacturer
+      
+                string select_manufacturer = s_new_manuacture.Text;
+
+                switch (select_manufacturer)
+                {
+                    case "Apple": manufacturer = 1; break;
+                    case "Samsung": manufacturer = 2; break;
+                    case "Fitbit": manufacturer = 3; break;
+                    case "Wokka": manufacturer = 4; break;
+                    case "Sony": manufacturer = 5; break;
+                    case "Panasonic": manufacturer = 6; break;
+                    case "Smart Kid": manufacturer = 7; break;
+                    case "Xiaomi": manufacturer = 8; break;
+                    default:
+                        manufacturer = 0; break;
+                }
+              
+                //selected os
+                
+                string select_os = s_new_os.Text;
+
+                switch (select_os)
+                {
+                    case "Android": os = 1; break;
+                    case "X OS": os = 2; break;
+                    case "Windows": os = 3; break;
+                    case "Windows Phone": os = 4; break;
+                    default:
+                        os = 0; break;
+                }
+                
+                // selected unit
+              
+                string select_unit = s_new_unit.Text;
+
+                switch (select_unit)
+                {
+                    case "Пульс": unit = 1; break;
+                    case "Шагомер": unit = 2; break;
+                    case "Таймер": unit = 3; break;
+                    case "Калории": unit = 4; break;
+                    case "Сон": unit = 5; break;
+                    default:
+                        unit = 0; break;
+                }
+              
+                //selected type
+
+                if (rb_new_smartwatch.Checked)
+                {
+                    type = 1;
+                }
+
+                if (rb_bracelet.Checked)
+                {
+                    type = 2;
+                }
+                // ----------------------------------
+
+                /*
+                string c1 = s_new_manuacture.Text;
                 switch (c1) {
                     case "Большой": before(0,addbd); break;//передаём значения в функцию,
                     case "Средний": before(1,addbd); break;//-||-
@@ -87,7 +170,9 @@ namespace WinForms2015_MySQL
                         MessageBox.Show("Выберите произволдителя умных часов!", "ОШИБКА:(", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
                         break;                        
                 }
+                */
             }
+            // InsertDB(addbd, , manufacturer, unit, os, type);
         }
 
 
